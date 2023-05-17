@@ -2,8 +2,11 @@ import React from "react";
 import { useEffect, useState } from "react";
 
 const MovieData = () => {
+  //loading state
   const [loading, setLoading] = useState(true);
+  //loading data
   const [data, setData] = useState(null);
+  //loading error
   const [error, setError] = useState(false);
   useEffect(() => {
     fetch("https://swapi.dev/api/films")
