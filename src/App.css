@@ -134,7 +134,11 @@ span {
     grid-gap: 20px;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 10px auto;
+  }
+  .main-container {
+    margin: 0 auto;
+    width: 90%;
   }
   h3 {
     font-size: 20px;
