@@ -13,6 +13,7 @@ const MovieData = () => {
             `This is an HTTP Error: The staus is  ${response.status}`
           );
         }
+        //this should thrown an error
 
         return response.json();
       })
