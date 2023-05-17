@@ -89,9 +89,7 @@ const MovieData = () => {
                       .slice(0, 11)
                       .join("\n")}{" "}
                   </p>{" "}
-                  <a href="#" className="moreInfo">
-                    More info{" "}
-                  </a>{" "}
+                  <span className="more-info"> More info </span>{" "}
                 </li>
               );
             })}{" "}
